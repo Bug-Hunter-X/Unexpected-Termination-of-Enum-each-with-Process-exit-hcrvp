@@ -1,0 +1,1 @@
+This repository demonstrates a subtle error in Elixir when using `Enum.each` along with `Process.exit` inside the enumeration function.  The `Process.exit` call unexpectedly terminates the entire `Enum.each` process, preventing further iteration.  This example highlights the importance of understanding the implications of `Process.exit` within functional contexts.
